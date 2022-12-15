@@ -4,11 +4,24 @@
 
 My challenge this week was to build the back end for an e-commerce site. I was given a working Express.js API and instructed to configure it to use Sequelize to interact with a MySQL database. Testing was completed in Insomnia. The application will not be deployed, so a video walk-through is provided below.
 
+  * [Installation](#install)
+  * [Usage](#usage)
+  * For a video on using the app click [here.]()
+
+
 ## User Story
 
 AS A manager at an internet retail company  
 I WANT a back end for my e-commerce website that uses the latest technologies  
 SO THAT my company can compete with other e-commerce companies  
+
+## Usage 
+
+Make sure to create a .env file at the base of your files and complete the following with your SQL info respectably.
+
+- DB_NAME= ecommerce_db
+- DB_USER= root
+- DB_PW= yourpassword
 
 ## Acceptance Criteria
 
@@ -23,10 +36,6 @@ WHEN I open API GET routes in Insomnia Core for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON  
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core  
 THEN I am able to successfully create, update, and delete data in my database  
-
-## Demonstration
-
-[Link to Demo]()
 
 
 ## Contact
